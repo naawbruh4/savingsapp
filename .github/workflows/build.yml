@@ -28,7 +28,7 @@ jobs:
         run: flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release --verbose
+        run: flutter build apk --release
 
       - name: Find APK
         run: find . -name "*.apk" -type f
@@ -37,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: savingsapp
-          path: build/app/outputs/apk/release/app-release.apk
+          path: build/app/outputs/flutter-apk/app-release.apk
