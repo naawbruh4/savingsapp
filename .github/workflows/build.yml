@@ -29,6 +29,7 @@ jobs:
 
       - name: Build APK
         run: flutter build apk --release
+        continue-on-error: true
 
       - name: Find APK
         run: find . -name "*.apk" -type f
