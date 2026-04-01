@@ -17,3 +17,6 @@ Meet OSSA, your clean, powerful, and privacy-friendly savings companion built fo
 ❤️ Contributions, ideas, and feedback are always welcome!
 
 👉 Start saving smarter today — download OSSA and take control of your money!
+
+## Credits for Icons:
+- Flaticons (https://www.flaticon.com/free-icon/salary_3135706?term=savings&page=1&position=16&origin=tag&related_id=3135706)
