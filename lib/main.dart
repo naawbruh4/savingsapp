@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tofu_expressive/tofu_expressive.dart';
 import 'screens/home_screen.dart';
 
 void main() {
@@ -27,16 +28,8 @@ class _SavingsAppState extends State<SavingsApp> {
     return MaterialApp(
       title: 'Savings',
       themeMode: _themeMode,
-      theme: ThemeData(
-        colorSchemeSeed: Colors.teal,
-        useMaterial3: true,
-        brightness: Brightness.light,
-      ),
-      darkTheme: ThemeData(
-        colorSchemeSeed: Colors.teal,
-        useMaterial3: true,
-        brightness: Brightness.dark,
-      ),
+      theme: TofuTheme.light(Colors.teal),
+      darkTheme: TofuTheme.dark(Colors.teal),
       home: HomeScreen(onToggleTheme: _toggleTheme, themeMode: _themeMode),
     );
   }
