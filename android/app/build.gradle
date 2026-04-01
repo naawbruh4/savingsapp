@@ -8,6 +8,15 @@ android {
     namespace "com.naawbruh4.savingsapp"
     compileSdk 34
 
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
     defaultConfig {
         applicationId "com.naawbruh4.savingsapp"
         minSdk 21
